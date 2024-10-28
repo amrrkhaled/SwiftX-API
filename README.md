@@ -15,15 +15,15 @@ Welcome to the **Jogging Tracker API**! This RESTful API is designed to help use
 
 ### Prerequisites
 
-- Node.js (version X.X.X or higher)
-- PostgreSQL (version X.X.X or higher)
+- Node.js 
+- PostgreSQL 
 - An .env file for environment variables
 
 ### Installation
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/jogging-tracker-api.git
+   git clone https://github.com/amrrkhaled/jogging-tracker-api.git
    cd jogging-tracker-api
 2. **Install Dependencies**
    ```bash
