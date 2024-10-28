@@ -32,7 +32,7 @@ Welcome to the **Jogging Tracker API**! This RESTful API is designed to help use
 
     ```bash
     SECRET_KEY=your_secret_key
-    SALT_ROUNDS=10
+    SALT_ROUNDS=your_cost_factor
     DB_USER=your_db_user
     DB_HOST=your_db_host
     DB_NAME=your_db_name
@@ -41,7 +41,8 @@ Welcome to the **Jogging Tracker API**! This RESTful API is designed to help use
 4. **Run the application**
    ```bash
    npm start
-5.**Access the API Open your browser or a tool like Postman or Swagger and go to http://localhost:3000.**
+
+5. **Access the API Open your browser or a tool like Postman or Swagger and go to http://localhost:3000.**
 
 ## 🛠 API Endpoints
 
