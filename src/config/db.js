@@ -1,11 +1,11 @@
 import pg from "pg";
 
 const db = new pg.Client({
-  user: "postgres",
-  host: "localhost",
-  database: "SwiftX",
-  password: "12345678",
-  port: "5432",
+  user: process.env.DB_USER,
+  host: process.env.DB_HOST,
+  database: process.env.DB_NAME,
+  password: process.env.DB_PASSWORD,
+  port: process.env.DB_PORT,
 });
 
 const connectDb = async () => {

@@ -1,5 +1,5 @@
 import jwt from "jsonwebtoken";
-const SECRET_KEY = "my key";
+const SECRET_KEY = process.env.SECRET_KEY;
 import { blacklistedTokens } from "../controllers/authController.js";
 
 
