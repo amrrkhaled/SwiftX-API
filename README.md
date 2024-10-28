@@ -57,7 +57,7 @@ Welcome to the **Jogging Tracker API**! This RESTful API is designed to help use
 
 ### Jogging Records
 - **POST** `/jogging/add`: Log a new jogging session.
-- **GET** `/jogging/view`: View jogging records (filtered by date for admin).
+- **GET** `/jogging/view`: View jogging records (filtered by date option).
 - **GET** `/jogging/report`: Generate a report of jogging statistics.
 - **PUT** `/jogging/:id`: Update an existing jogging record.
 - **DELETE** `/jogging/:id`: Delete a jogging record.
